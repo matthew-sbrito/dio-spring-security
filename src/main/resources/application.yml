@@ -1,0 +1,25 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+jwt:
+  secret: 7das98d479as84d9s4a9d49as4d98
+
+management:
+  server:
+    port: 8080
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8081

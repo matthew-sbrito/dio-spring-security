@@ -17,7 +17,7 @@ import com.techsoft.api.service.ProductService;
  */
 @Slf4j
 @RestController
-@RequestMapping("v1/product")
+@RequestMapping("/product")
 public class ProductController {
 
     private final ProductService productService;
